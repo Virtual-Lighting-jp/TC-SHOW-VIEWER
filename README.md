@@ -30,17 +30,9 @@ M2,01:05:00:00,03:00,次の曲スタート
 
 ## 使い方
 
-### ブラウザで直接開く（一番簡単）
+### ブラウザで直接開く
 
-`TC_Show_Viewer.html` をChromeで開くだけ。
-
-### Windows アプリとして使う
-
-`TC_Show_Viewer.bat` をダブルクリックすると、Chromeがアプリモード（アドレスバー無し）で起動します。
-
-### Windows の .exe を作る
-
-`exe作成.bat` をダブルクリックすると `TC_Show_Viewer.exe` が生成されます。Node.js 不要、Windows標準の .NET コンパイラで作成します。配布は `TC_Show_Viewer.exe` と `TC_Show_Viewer.html` の2ファイルセットで。
+`TC_Show_Viewer.html` をChromeで開く
 
 ## キーボードショートカット
 
@@ -58,9 +50,6 @@ M2,01:05:00:00,03:00,次の曲スタート
 
 ```
 TC_Show_Viewer.html  ← アプリ本体（これだけで動作）
-TC_Show_Viewer.bat   ← Chromeアプリモードで起動
-Launcher.cs          ← exe のソースコード
-exe作成.bat           ← ダブルクリックで .exe 生成
 LICENSE              ← MIT License
 ```
 
